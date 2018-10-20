@@ -24,8 +24,8 @@ Data should be retrieved by using the API:
 > https://www.quandl.com/api/v3/datasets/WIKI/{symbol}.csv?order=asc&start_date={Y-m-d}&end_date={Y-m-d}
  
 **Examples**
-* (https://www.quandl.com/api/v3/datasets/WIKI/AAPL.csv?order=asc&start_date=2003-01-01&end_date=2003-03-06)
-* (https://www.quandl.com/api/v3/datasets/WIKI/GOOG.csv?order=asc&start_date=2017-01-01&end_date=2017-03-06)
+* https://www.quandl.com/api/v3/datasets/WIKI/AAPL.csv?order=asc&start_date=2003-01-01&end_date=2003-03-06
+* https://www.quandl.com/api/v3/datasets/WIKI/GOOG.csv?order=asc&start_date=2017-01-01&end_date=2017-03-06
  
 3) Display a chart of the open and close prices in the given date range.  
  
@@ -46,7 +46,7 @@ https://github.com/swiftmailer/swiftmailer
 
 ## Install
 
-* ``$ composer install``
+> $ composer install
 
 ## Uses
 
