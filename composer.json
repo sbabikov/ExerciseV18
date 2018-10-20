@@ -1,0 +1,31 @@
+{
+    "name": "sbabikov/exercise-v18.0.0",
+    "description": "PHP Exercise - v18.0.0 for XM company",
+    "version": "1.0",
+    "license": "MIT",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sergii Babikov",
+            "email": "s.babikov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "swiftmailer/swiftmailer": ">=6.1.3"
+    },
+    "extra":{
+        "installer-paths": {
+            "./web/js/": ["components/jqueryui"]
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExerciseV18\\": "src/",
+            "ExerciseV18\\Tests\\": "tests/"
+        }
+    }
+}

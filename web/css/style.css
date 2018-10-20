@@ -1,0 +1,47 @@
+form, div {
+    padding: 10px;
+}
+
+.datepicker {
+    width: 90px;
+}
+
+label {
+    width: 130px;
+    display: block;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+button {
+    margin-left: 275px;
+}
+
+#company-symbol, #email {
+    width: 180px;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+table {
+    background-color: gray;
+}
+
+th, td {
+    background-color: white;
+}
+
+#chart {
+     width: 90%;
+     height: 500px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
